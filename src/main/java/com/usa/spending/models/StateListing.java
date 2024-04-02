@@ -14,8 +14,9 @@ public class StateListing {
 
     // TODO #7 -- convert to Enum based on types on:
     //  https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/api_contracts/contracts/v2/recipient/state.md
-    private String type;
+    private StateType type;
 
     private Double amount;      // Total dollar amount of awards
     private Integer count;      // Total number of awards
+
 }
